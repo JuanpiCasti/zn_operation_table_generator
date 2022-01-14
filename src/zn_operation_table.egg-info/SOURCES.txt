@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/zn_operation_table/__init__.py
+src/zn_operation_table/zn_operation_table.py
+src/zn_operation_table.egg-info/PKG-INFO
+src/zn_operation_table.egg-info/SOURCES.txt
+src/zn_operation_table.egg-info/dependency_links.txt
+src/zn_operation_table.egg-info/top_level.txt

@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: zn-operation-table
+Version: 1.0.0
+Summary: Simple package to obtain Zn's equivalence classes sum or product operation tables.
+Home-page: UNKNOWN
+Author: Juan Pablo Castiglione
+Author-email: juanpablocastiglione01@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/JuanpiCasti/zn_operation_table_generator/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Zn equivalence classes operation table generator
+
+Simple package to obtain Zn's equivalence classes sum or product operation tables.
+
+The build_table method takes an integer (n) and 'sum' or 'prod' as first and second arguments.
+It will return a nxn matrix with the result of operating every item with each other.
+
+## Installation:
+
+``
+    pip install zn_operation_table
+``
+
+## Example
+
+``
+    build_table(3, 'sum')
+``
+
+Will return:
+
+``
+    [[0,1,2], [1,2,0], [2,0,1]]
+``
+
+
