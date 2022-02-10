@@ -27,7 +27,7 @@ Will return:
 
 build_table(n, operation, headers, inversibles)
 
-n: positive integer.
-operation: 'sum' for class sum and 'prod' for class product.
-headers: for row and column headers.
+n: positive integer. \n
+operation: 'sum' for class sum and 'prod' for class product. \n
+headers: for row and column headers. \n
 inversibles: tu use the given set's inversibles for the given operation.
