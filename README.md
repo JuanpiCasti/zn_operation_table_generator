@@ -22,3 +22,12 @@ Will return:
 ``
     [[0,1,2], [1,2,0], [2,0,1]]
 ``
+
+## build_table function
+
+build_table(n, operation, headers, inversibles)
+
+n: positive integer.
+operation: 'sum' for class sum and 'prod' for class product.
+headers: for row and column headers.
+inversibles: tu use the given set's inversibles for the given operation.
