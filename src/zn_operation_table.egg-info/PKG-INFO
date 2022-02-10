@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: zn-operation-table
-Version: 1.0.3
+Version: 1.1.5
 Summary: Simple package to obtain Zn's equivalence classes sum or product operation tables.
-Home-page: UNKNOWN
+Home-page: https://github.com/JuanpiCasti/zn_operation_table_generator
 Author: Juan Pablo Castiglione
 Author-email: juanpablocastiglione01@gmail.com
 License: UNKNOWN
@@ -19,7 +19,7 @@ License-File: LICENSE
 
 Simple package to obtain Zn's equivalence classes sum or product operation tables.
 
-The build_table method takes an integer (n) and 'sum' or 'prod' as first and second arguments.
+The build_table method takes an positive integer (n) and 'sum' or 'prod' as first and second arguments.
 It will return a nxn matrix with the result of operating every item with each other.
 
 ## Installation:
@@ -39,5 +39,14 @@ Will return:
 ``
     [[0,1,2], [1,2,0], [2,0,1]]
 ``
+
+## build_table function
+
+build_table(n, operation, headers, inversibles)
+
+n: positive integer.  
+operation: 'sum' for class sum and 'prod' for class product.  
+headers: for row and column headers.  
+inversibles: tu use the given set's inversibles for the given operation.
 
 
