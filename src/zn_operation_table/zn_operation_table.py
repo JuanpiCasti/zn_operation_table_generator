@@ -17,7 +17,7 @@ def build_table(n, selected_operation, headers=False, inversibles=False):
     if selected_operation in ["sum", "prod"]:
         operation = class_sum if selected_operation == 'sum' else class_prod
         
-        integer_set = list(get_inversibles(n)) if inversibles else set(range(n))
+        integer_set = list(get_inversibles(n)) if inversibles else list(range(n))
 
         if headers:
                 table = [['+' if selected_operation == 'sum' else '*'] + integer_set]
