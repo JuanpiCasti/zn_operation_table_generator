@@ -25,7 +25,7 @@ Will return:
 
 ## build_table function
 
-build_table(n, operation, headers, inversibles)
+build_table(n, operation, bool:headers(opt), bool:inversibles(opt))
 
 n: positive integer.  
 operation: 'sum' for class sum and 'prod' for class product.  
