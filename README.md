@@ -30,4 +30,4 @@ build_table(n, operation, bool:headers(opt), bool:inversibles(opt))
 n: positive integer.  
 operation: 'sum' for class sum and 'prod' for class product.  
 headers: for row and column headers.  
-inversibles: tu use the given set's inversibles for the given operation.
+inversibles: for using the given set's inversibles for the given operation.
